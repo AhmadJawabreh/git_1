@@ -29,7 +29,7 @@ public class PersonRunner {
 		for (Person person : persons) {
 			sum += person.getAge();
 		}
-		return sum / persons.size()+1;
+		return sum / persons.size()+100;
 	}
 
 	public int getAgeCategory(int age) {
